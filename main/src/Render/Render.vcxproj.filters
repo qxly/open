@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b788d68c-170f-40a7-91d5-1f6cdf973464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mesh">
+      <UniqueIdentifier>{1772e57d-7d43-4994-91cb-7530f847e345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Material">
+      <UniqueIdentifier>{81460a3c-e97f-46f7-a874-e2973b4736df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mesh\obj">
+      <UniqueIdentifier>{b33e953d-54c1-4a07-9fdd-c8861033a7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\RenderEngine">
+      <UniqueIdentifier>{3ad3b253-28be-4445-bff6-7ca42b087372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Text">
+      <UniqueIdentifier>{435ae0be-6c5a-4da6-961c-5efda16d69ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Text\freetype">
+      <UniqueIdentifier>{7ac75bf5-d1be-4ecd-89f3-589842d96f55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mesh\HeightMap.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\SolidDrawable.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Sphere.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Box.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Drawable.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mesh.cpp">
+      <Filter>src\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\obj\ReaderWriterOBJ.cpp">
+      <Filter>src\Mesh\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\obj\obj.cpp">
+      <Filter>src\Mesh\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Material\Material.cpp">
+      <Filter>src\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\RenderEngine.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\Camera.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFactoryInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Font.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Glyph.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\Text.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\DefaultFont.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\RenderQueue.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\ForwardPass.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\GbufferPass.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\PointLightRenderPass.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\DirLightRenderPass.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\EmissiveRenderPass.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\freetype\FreeTypeLibrary.cpp">
+      <Filter>src\Text\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\freetype\FreeTypeFont.cpp">
+      <Filter>src\Text\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderEngine\ClusteredUtil.cpp">
+      <Filter>src\RenderEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh\HeightMap.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\SolidDrawable.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Sphere.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Box.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Drawable.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mesh.h">
+      <Filter>src\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\obj\obj.h">
+      <Filter>src\Mesh\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Material\Material.h">
+      <Filter>src\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\Camera.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\RenderEngine.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\DefalutSchema.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Font.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Glyph.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\Text.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\DefaultFont.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\RenderQueue.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\DeferredUtil.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\freetype\FreeTypeLibrary.h">
+      <Filter>src\Text\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\freetype\FreeTypeFont.h">
+      <Filter>src\Text\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderEngine\ClusteredUtil.h">
+      <Filter>src\RenderEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

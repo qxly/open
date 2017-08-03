@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "src\Engine\Engine.vcxproj", "{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderSystem", "src\RenderSystem\RenderSystem.vcxproj", "{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Render", "src\Render\Render.vcxproj", "{842E4049-9880-4B79-9965-34F49BE1115F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testRender", "test_render\testRender.vcxproj", "{A27BDA2C-48E2-4962-8556-C39258537069}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4} = {D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "copy", "src\copy_shader\copy_shader.vcxproj", "{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{F535A2CB-426D-45EC-A021-57918E1F8FF0}"
+	ProjectSection(SolutionItems) = preProject
+		shaders\Basic.frag = shaders\Basic.frag
+		shaders\Basic.vert = shaders\Basic.vert
+		shaders\ClusteredLightPass.frag = shaders\ClusteredLightPass.frag
+		shaders\Depth.frag = shaders\Depth.frag
+		shaders\Depth.vert = shaders\Depth.vert
+		shaders\GBuffer.frag = shaders\GBuffer.frag
+		shaders\GBuffer.vert = shaders\GBuffer.vert
+		shaders\LightPass.frag = shaders\LightPass.frag
+		shaders\LightPass.vert = shaders\LightPass.vert
+		shaders\Null.frag = shaders\Null.frag
+		shaders\Null.vert = shaders\Null.vert
+		shaders\PointSprite.frag = shaders\PointSprite.frag
+		shaders\PointSprite.vert = shaders\PointSprite.vert
+		shaders\ShadowRenderPass.frag = shaders\ShadowRenderPass.frag
+		shaders\ShadowRenderPass.vert = shaders\ShadowRenderPass.vert
+		shaders\ShadowRenderPass_forward.frag = shaders\ShadowRenderPass_forward.frag
+		shaders\ShadowRenderPass_forward.vert = shaders\ShadowRenderPass_forward.vert
+		shaders\ShowGBuffer.frag = shaders\ShowGBuffer.frag
+		shaders\ShowGBuffer.vert = shaders\ShowGBuffer.vert
+		shaders\Text.frag = shaders\Text.frag
+		shaders\Text.vert = shaders\Text.vert
+		shaders\Util.glsl = shaders\Util.glsl
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "open", "src\open\open.vcxproj", "{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wrap", "wrap", "{5A4037BB-3758-4E67-8EF6-F96BF2D77D38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "open_lua", "src\wrap\open_lua\open_lua.vcxproj", "{CDB0969C-8DEC-434B-8849-EFE3FB253F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BC7D4865-3F76-469A-A8B6-6510901B37D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "renderPass", "renderPass", "{254AC275-6F40-4196-841B-B9A76C8D9B50}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\renderPass\GBufferPass.lua = scripts\renderPass\GBufferPass.lua
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua_test", "src\wrap\lua_test\lua_test.vcxproj", "{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Debug|x64.ActiveCfg = Debug|x64
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Debug|x86.Build.0 = Debug|Win32
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Release|x64.ActiveCfg = Release|x64
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Release|x64.Build.0 = Release|x64
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Release|x86.ActiveCfg = Release|Win32
+		{BF6A1A72-EEBF-4559-8CE9-AD760E4F5953}.Release|x86.Build.0 = Release|Win32
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Debug|x64.ActiveCfg = Debug|x64
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Debug|x86.ActiveCfg = Debug|Win32
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Debug|x86.Build.0 = Debug|Win32
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Release|x64.ActiveCfg = Release|x64
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Release|x64.Build.0 = Release|x64
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Release|x86.ActiveCfg = Release|Win32
+		{53B1D62A-BBD1-4505-BFB8-76635E3BBF64}.Release|x86.Build.0 = Release|Win32
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Debug|x64.ActiveCfg = Debug|x64
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Debug|x86.ActiveCfg = Debug|Win32
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Debug|x86.Build.0 = Debug|Win32
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Release|x64.ActiveCfg = Release|x64
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Release|x64.Build.0 = Release|x64
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Release|x86.ActiveCfg = Release|Win32
+		{842E4049-9880-4B79-9965-34F49BE1115F}.Release|x86.Build.0 = Release|Win32
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Debug|x64.ActiveCfg = Debug|x64
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Debug|x86.ActiveCfg = Debug|Win32
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Debug|x86.Build.0 = Debug|Win32
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Release|x64.ActiveCfg = Release|x64
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Release|x64.Build.0 = Release|x64
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Release|x86.ActiveCfg = Release|Win32
+		{A27BDA2C-48E2-4962-8556-C39258537069}.Release|x86.Build.0 = Release|Win32
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Debug|x64.ActiveCfg = Debug|x64
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Debug|x86.Build.0 = Debug|Win32
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Release|x64.ActiveCfg = Release|x64
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Release|x64.Build.0 = Release|x64
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Release|x86.ActiveCfg = Release|Win32
+		{D20E370F-CF68-4BE2-BD61-5AC0CAF5D2F4}.Release|x86.Build.0 = Release|Win32
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Debug|x64.ActiveCfg = Debug|x64
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Debug|x64.Build.0 = Debug|x64
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Debug|x86.Build.0 = Debug|Win32
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Release|x64.ActiveCfg = Release|x64
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Release|x64.Build.0 = Release|x64
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Release|x86.ActiveCfg = Release|Win32
+		{D8859444-8EF1-428A-AA53-CBC52CEBEEBA}.Release|x86.Build.0 = Release|Win32
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Debug|x64.ActiveCfg = Debug|x64
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Debug|x64.Build.0 = Debug|x64
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Debug|x86.Build.0 = Debug|Win32
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Release|x64.ActiveCfg = Release|x64
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Release|x64.Build.0 = Release|x64
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Release|x86.ActiveCfg = Release|Win32
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17}.Release|x86.Build.0 = Release|Win32
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Debug|x64.ActiveCfg = Debug|x64
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Debug|x64.Build.0 = Debug|x64
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Debug|x86.ActiveCfg = Debug|Win32
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Debug|x86.Build.0 = Debug|Win32
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Release|x64.ActiveCfg = Release|x64
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Release|x64.Build.0 = Release|x64
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Release|x86.ActiveCfg = Release|Win32
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDB0969C-8DEC-434B-8849-EFE3FB253F17} = {5A4037BB-3758-4E67-8EF6-F96BF2D77D38}
+		{254AC275-6F40-4196-841B-B9A76C8D9B50} = {BC7D4865-3F76-469A-A8B6-6510901B37D4}
+		{6CD0DABF-CE2E-4689-86B4-B1C26CDCF756} = {5A4037BB-3758-4E67-8EF6-F96BF2D77D38}
+	EndGlobalSection
+EndGlobal

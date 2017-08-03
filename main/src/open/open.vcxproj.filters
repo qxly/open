@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{8085999b-6917-4d3e-8d29-8932d5d7f0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{cc0027fb-5bec-458e-ab2f-6ed857ce013b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{79d5c18f-06c8-4af8-8b56-566fbf223b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\RenderSystem">
+      <UniqueIdentifier>{360ad84f-8bab-4b5d-a119-902c6d544477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\Engine">
+      <UniqueIdentifier>{36d17d3d-fcf1-45c3-a199-13ca8f91edec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\Render">
+      <UniqueIdentifier>{9e78a48c-55ef-4c72-90a8-d7bbb328fb75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputQueue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\InputInterface.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\IntrusiveList.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\List.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Log.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Memory.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Module.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\MulitiCommand.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\openDef.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Ptr.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Algorithm.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Array.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Config.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Deque.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Exception.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Engine\EngineInterface.h">
+      <Filter>interface\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Engine\EngineFactoryInterface.h">
+      <Filter>interface\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Render\RenderEngine.h">
+      <Filter>interface\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Render\RenderFactoryInterface.h">
+      <Filter>interface\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Render\DrawableInterface.h">
+      <Filter>interface\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\Render\MaterialInterface.h">
+      <Filter>interface\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\RenderStatesInterface.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\RenderSystemDef.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\RenderSystemFactoryInterface.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\BufferInterface.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\InputInterface.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\RenderEnumeration.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\interface\RenderSystem\RenderInterface.h">
+      <Filter>interface\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\open\Maths.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Assert.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

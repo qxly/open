@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0e50466c-1d76-4e77-840d-53ff41613c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Buffer">
+      <UniqueIdentifier>{61449ce1-9188-4be2-b4c5-a5e420b471fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\RenderFactory">
+      <UniqueIdentifier>{f46e2ff2-4ddb-44e3-a711-cbd5b4b739ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\RenderPool">
+      <UniqueIdentifier>{dbbca2f9-15f7-4b52-a2be-7df50f7037cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\RenderStates">
+      <UniqueIdentifier>{960e1e36-b4a7-4c1d-9d31-94121631fcdd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPUResource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer\GPUBuffer.h">
+      <Filter>src\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPool\FrameBuffer.h">
+      <Filter>src\RenderPool</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPool\Light.h">
+      <Filter>src\RenderPool</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPool\RenderPool.h">
+      <Filter>src\RenderPool</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPool\RenderWindow.h">
+      <Filter>src\RenderPool</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates\TextureUnit.h">
+      <Filter>src\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates\TextureUnitSet.h">
+      <Filter>src\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates\Program.h">
+      <Filter>src\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates\ReaderDDS.h">
+      <Filter>src\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates\Texture.h">
+      <Filter>src\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer\VertexArray.h">
+      <Filter>src\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GlState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Buffer\GPUBuffer.cpp">
+      <Filter>src\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPool\FrameBuffer.cpp">
+      <Filter>src\RenderPool</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPool\Light.cpp">
+      <Filter>src\RenderPool</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPool\RenderPool.cpp">
+      <Filter>src\RenderPool</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPool\RenderWindow.cpp">
+      <Filter>src\RenderPool</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUResource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates\TextureUnit.cpp">
+      <Filter>src\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates\TextureUnitSet.cpp">
+      <Filter>src\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates\Program.cpp">
+      <Filter>src\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates\ReaderDDS.cpp">
+      <Filter>src\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates\Texture.cpp">
+      <Filter>src\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderFactory\RenderSystemFactoryInterface.cpp">
+      <Filter>src\RenderFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer\VertexArray.cpp">
+      <Filter>src\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GlState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
